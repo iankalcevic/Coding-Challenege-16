@@ -49,3 +49,8 @@ function handleError(error) {
     <p style="color: red;"> An error occured: </p>
     `; //Log error message
 };
+
+// Task 6 - Call your fetch functions
+
+fetchProductsThen();
+fetchProductsAsync();
