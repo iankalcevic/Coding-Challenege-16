@@ -40,3 +40,12 @@ function displayProducts(products) {
         container.appendChild(card); //Append to container
     });
 };
+
+// Task 5 - Reusable Error Handler
+
+function handleError(error) {
+    console.error("Error:", error.message);
+    document.getElementById('product-container').innerHTML =`
+    <p style="color: red;"> An error occured: </p>
+    `; //Log error message
+};
